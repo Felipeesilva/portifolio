@@ -10,12 +10,13 @@ h1, h2, h3, p{
 
 ul{
   margin: 0px;
-  padding: 8px;
+  padding: 0px;
   list-style: none;
 }
 
 img{
   max-width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -31,7 +32,7 @@ img{
   .subtitulo{
     font-size: 3rem;
     text-transform: capitalize;
-    max-width: initial;
+    max-width: initial !important;
   }
   .experiencia-texto{
     font-size: 1.25rem;
